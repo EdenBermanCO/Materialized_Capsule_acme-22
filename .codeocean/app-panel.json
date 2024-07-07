@@ -1,0 +1,38 @@
+{
+	"version": 1,
+	"datasets": [
+		{
+			"id": "4a117340-fb77-4f8c-b4d9-81e613abe125",
+			"name": "Internal_Data",
+			"description": "Desc",
+			"help_text": "Help"
+		}
+	],
+	"parameters": [
+		{
+			"id": "VYupGFtZjH2FOPBV",
+			"name": "Input",
+			"description": "Desc",
+			"help_text": "Help",
+			"type": "text",
+			"value_type": "string",
+			"default_value": "a",
+			"required": true,
+			"pattern": "a"
+		},
+		{
+			"id": "GEzUhNvTX8y0WOx7",
+			"name": "List",
+			"description": "Desc",
+			"help_text": "Help",
+			"type": "list",
+			"value_type": "string",
+			"default_value": "b",
+			"extra_data": [
+				"a",
+				"b",
+				"c"
+			]
+		}
+	]
+}
